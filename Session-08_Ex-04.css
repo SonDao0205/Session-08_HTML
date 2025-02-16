@@ -15,17 +15,23 @@ body{
 
 
 .title{
-    padding-bottom: 80px;
+    padding-bottom: 25px;
+    width: 160px;
 }
 
 .text{
-    border-bottom: 2px solid;
-    border-color: #f56e6e;
     color: #3d4449;
     font-weight: 600;
+    font-size: 25px;
 }
 
-.diamond {  
+.diven{
+    border: 2px solid #f56e6e;
+    width:100%;
+    margin: 15px 0;
+}
+
+.logo {  
     position: relative;  
     width: 100px;  
     height: 100px;  
@@ -34,13 +40,11 @@ body{
     margin: 30px;
 }  
 
-img{  
-    position: absolute;
-    transform: rotate(-45deg); 
-    width: 70px;
-    height: 60px;
-    bottom: 20px;
-    right: 10px;
+.icon{  
+    padding: 30px;
+    font-size: 40px;
+    transform: rotate(-45deg);
+    color: #F56A6A;
 }
 
 .heading{
