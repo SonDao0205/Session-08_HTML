@@ -1,0 +1,69 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.post2{
+    border-left: 0.5px solid rgba(0, 0, 0, 0.3);
+    border-right: 0.5px solid rgba(0, 0, 0, 0.3);
+    padding: 0 30px;
+}
+
+td{
+    width: 250px;
+    padding: 0 30px;
+    
+}
+
+.container .logo{
+    margin: 0 0 40px 30px;
+
+}
+
+.container .logo h1{
+    font-size: 20px;
+}
+
+.container .logo .diven{
+    border-bottom: 3px solid #F56A6A;
+    width: 170px;
+    margin-top: 10px;
+}
+
+
+
+.container .post .image img{
+    width: 250px;
+}
+
+.container .post .title{
+    margin: 20px 0;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.container .post .content{
+    width: 100%;
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.5);
+    margin-bottom: 30px;
+}
+
+.container .post .moreButton button{
+    padding: 10px 15px;
+    border-color: #F57172;
+    color: #F57172;
+    background-color: transparent;
+    border-radius: 5px;
+    font-size: 10px;
+    font-weight: 600;
+}
+
+.container .post .moreButton button:hover{
+    cursor: pointer;
+    background-color:#fc1212;
+    border-color:#fc1212 ;
+    color: white;
+}

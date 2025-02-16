@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    width: 500px;
+    border: 1px solid black;
+    margin: 30px;
+    background-color: #4F405E;
+}
+
+label{
+    color: white;
+    font-size: 10px;
+    font-weight: 100;
+}
+
+.container .loginForm{
+    padding: 30px;
+}
+
+.container .loginForm .name input{
+    width:100%;
+    border-radius: 5px;
+    padding: 5px;
+    border: 0.1px solid white;
+    background-color: transparent;
+}
+
+.container .loginForm .name{
+    display: inline-block;
+    width: 45%;
+    margin-right: 10px;
+}
+
+.container .loginForm .email{
+    display: inline-block;
+    width: 50%;
+}
+
+.container .loginForm .email input{
+    width: 100%;
+    border-radius: 5px;
+    padding: 5px;
+    border: 0.1px solid white;
+    background-color: transparent;
+}
+
+.container .loginForm .message{
+    margin: 30px 0;
+}
+
+.container .loginForm .message textarea{
+    padding: 40px;
+    width: 100%;
+    border-radius: 5px;
+    border: 0.1px solid white;
+    background-color: transparent;
+}
+
+.container .loginForm .footer button{
+    padding: 15px 20px;
+    color: black;
+    background-color: white;
+    border-radius: 5px;
+    border: transparent;
+    font-weight: 600;
+    letter-spacing: 3px;
+    font-size: 10px;
+}
